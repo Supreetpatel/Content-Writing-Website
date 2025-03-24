@@ -1,25 +1,19 @@
 export default function Services() {
   const services = [
     {
-      title: "Blogs & Articles",
+      title: "Content Writing",
       description:
         "We consider ourselves content marketing fanatics. We specialize in writing articles and blogs that create positive impressions and establish.",
       icon: "",
     },
     {
-      title: "Product description",
+      title: "Digital Marketing",
       description:
         "We offer product description writing services that excellently capture your brand voice and use language that best appeals to your target audience.",
       icon: "",
     },
     {
-      title: "Product description",
-      description:
-        "We offer product description writing services that excellently capture your brand voice and use language that best appeals to your target audience.",
-      icon: "",
-    },
-    {
-      title: "Product description",
+      title: "Public Relations Services",
       description:
         "We offer product description writing services that excellently capture your brand voice and use language that best appeals to your target audience.",
       icon: "",
@@ -28,10 +22,10 @@ export default function Services() {
 
   return (
     <section className="px-6 md:px-16 bg-white">
-      <h2 className="text-3xl font-bold text-gray-900 mb-8 flex items-center gap-2">
+      <h1 className="text-5xl font-bold text-gray-900 mb-8 flex items-center gap-2">
         Services <span className="text-purple-500">_</span>
-      </h2>
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-2">
+      </h1>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-3">
         {services.map((service, index) => (
           <div
             key={index}
