@@ -18,11 +18,13 @@ function AboutUs() {
             presence.
           </p>
           <p className="text-gray-600 text-lg mt-4">
-            From blog writing and content design to photography and public
-            relations, we offer comprehensive solutions that enhance brand
-            visibility and customer engagement. Our commitment to quality and
-            client satisfaction has enabled us to build lasting relationships
-            and continuously expand our network.
+            Welcome to :PixelProse where words transform into impact. We are a
+            team of passionate content creators dedicated to crafting compelling
+            narratives that resonate, engage, and inspire action. Whether you're
+            a startup looking to build your brand voice, an established business
+            aiming to dominate search rankings, or an entrepreneur needing
+            storytelling that sells, we're here to turn your vision into words
+            that work.
           </p>
         </div>
         <div className="relative">

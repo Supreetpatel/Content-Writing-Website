@@ -11,8 +11,9 @@ const ContactForm = () => {
               Our Office Address
             </h3>
             <p className="text-gray-600">
-              Palm Court Bldg M, 501/B, 5th Floor, New Link Road, Beside
-              Goregaon Sports Complex, Malad West, Mumbai, Maharashtra 400064
+              North Bazaar,Thana road,Extension Colony,
+              <br />
+              Paschim Burdwan,West Bengal , Pin-713321.
             </p>
           </div>
 
@@ -20,12 +21,12 @@ const ContactForm = () => {
             <h3 className="font-semibold text-lg flex items-center">
               General Enquiries
             </h3>
-            <p className="text-gray-600">websupport@justdial.com</p>
+            <p className="text-gray-600">subhadip.raj.2005@gmail.com</p>
           </div>
 
           <div>
             <h3 className="font-semibold text-lg flex items-center">Call Us</h3>
-            <p className="text-gray-600">+91-8888888888</p>
+            <p className="text-gray-600">+91-9134585497</p>
           </div>
 
           <div>
