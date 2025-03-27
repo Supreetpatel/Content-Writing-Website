@@ -1,8 +1,8 @@
 const ContactForm = () => {
   return (
-    <section className="py-5 px-6 md:px-16 md:gap-10">
+    <section id="contact" className="py-5 px-6 md:px-16 md:gap-10">
       <h1 className="text-5xl font-bold text-center text-gray-900 mb-8">
-        Contact Us <span className="text-purple-500">_</span>
+        Contact Us <span className="text-indigo-600">_</span>
       </h1>
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between">
         <div className="md:w-1/2 space-y-6">

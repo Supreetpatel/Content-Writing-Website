@@ -1,23 +1,22 @@
-import Image from "next/image";
 import React from "react";
 
 function AboutUs() {
   return (
-    <section className="py-16 px-6 md:px-16">
+    <section id="about" className="py-16 px-6 md:px-16">
       <div className="grid md:grid-cols-2 gap-10">
         <div className="flex flex-col justify-center">
           <h1 className="text-5xl font-bold text-gray-900 mb-8 flex items-center gap-2">
-            About Me <span className="text-purple-500">_</span>
+            About Me <span className="text-indigo-600">_</span>
           </h1>
-          <p className="text-gray-600 text-lg">
-            We are a team of dedicated professionals based in Malad West,
-            Mumbai, Maharashtra, providing top-tier content writing, digital
-            marketing, and branding services. Our expertise lies in crafting
+          <p className="text-gray-600 text-lg text-justify">
+            I am a dedicated professionals based in Paschim Burdwan, West
+            Bengal, providing top-tier content writing, digital marketing, and
+            public relations services. My expertise lies in crafting
             well-researched content, strategic marketing solutions, and engaging
             visual storytelling to help businesses establish a strong online
             presence.
           </p>
-          <p className="text-gray-600 text-lg mt-4">
+          <p className="text-gray-600 text-lg mt-4 text-justify">
             Welcome to :PixelProse where words transform into impact. We are a
             team of passionate content creators dedicated to crafting compelling
             narratives that resonate, engage, and inspire action. Whether you're
