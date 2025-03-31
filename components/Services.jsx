@@ -11,7 +11,7 @@ export default function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="blog-image.jpg"
+              src="blog.jpg"
               alt="Blog Writing"
               class="w-full h-40 object-cover rounded-md mb-4"
             />
@@ -20,59 +20,67 @@ export default function Services() {
               Get your blog posts written by experts with detailed research and
               updated information for your blog.
             </p>
-            <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700">
-              Enquire Now
-            </button>
+            <a href="#contact">
+              <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 cursor-pointer">
+                Enquire Now
+              </button>
+            </a>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="content-design.jpg"
+              src="cc.png"
               alt="Content Design"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Content Writing</h3>
             <p className="text-gray-600 mb-4">
-              We got you covered for all the content you need to update on all
+              I got you covered for all the content you need to update on all
               your website, and blog posts.
             </p>
-            <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700">
-              Enquire Now
-            </button>
+            <a href="#contact">
+              <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 cursor-pointer">
+                Enquire Now
+              </button>
+            </a>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="editing.jpg"
-              alt="Editing"
+              src="pr.webp"
+              alt="public relations"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">
               Public Relations Services
             </h3>
             <p className="text-gray-600 mb-4">
-              We make your documents error-free, with zero misuse of semantics,
-              and present your story stylishly.
+              I provide PR content services and social media content to enhance
+              brand image .
             </p>
-            <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700">
-              Enquire Now
-            </button>
+            <a href="#contact">
+              <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 cursor-pointer">
+                Enquire Now
+              </button>
+            </a>
           </div>
 
           <div className="bg-white p-6 rounded-lg shadow-lg">
             <img
-              src="editing.jpg"
-              alt="Editing"
+              src="dm.jpg"
+              alt="digital marketing"
               className="w-full h-40 object-cover rounded-md mb-4"
             />
             <h3 className="text-xl font-semibold mb-2">Digital Marketing</h3>
             <p className="text-gray-600 mb-4">
-              We make your documents error-free, with zero misuse of semantics,
-              and present your story stylishly.
+              I create engaging content for digital marketing, boosting brand
+              visibility through social media.
             </p>
-            <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700">
-              Enquire Now
-            </button>
+            <a href="#contact">
+              <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 cursor-pointer">
+                Enquire Now
+              </button>
+            </a>
           </div>
         </div>
       </div>

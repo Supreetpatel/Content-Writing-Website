@@ -13,9 +13,9 @@ function Herosection() {
             I'M <br />
             SUBHADIP TRIVEDI
           </h1>
-          <p className="text-gray-600 text-lg">A Conceptual Content Writer</p>
+          <h3 className="text-gray-600 text-lg">A Conceptual Content Writer</h3>
           <a href="#contact">
-            <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700">
+            <button className="bg-indigo-600 text-white py-3 px-6 rounded-lg shadow-lg hover:bg-indigo-700 cursor-pointer">
               Get in touch
             </button>
           </a>
@@ -24,16 +24,16 @@ function Herosection() {
         <div className="relative">
           <div className="absolute -top-5 -left-5 w-16 h-16 bg-yellow-400 rounded-lg"></div>
           <Image
-            src="/hero-image.jpg"
-            alt="Content Writing"
-            width={500}
+            src="/hero.png"
+            alt="hero"
+            width={400}
             height={400}
-            className="rounded-xl shadow-lg"
+            className="rounded-xl"
           />
           <div className="absolute -bottom-5 -right-5 w-10 h-10 bg-indigo-600 rounded-lg"></div>
         </div>
       </div>
-      <div className="flex flex-col md:flex-row gap-6 mt-10 ml-[500px]">
+      <div className="flex flex-col md:flex-row gap-6 mt-10 ml-[550px]">
         <div className="flex items-center gap-4 bg-gray-100 p-4 rounded-2xl shadow-md w-80">
           <div className="bg-indigo-600 p-3 rounded-xl">
             <ShieldCheckIcon className="h-8 w-8 text-white" />

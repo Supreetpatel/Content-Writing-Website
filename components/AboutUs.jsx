@@ -28,9 +28,9 @@ function AboutUs() {
         </div>
         <div className="relative">
           <img
-            src="/mnt/data/Screenshot 2025-03-24 144848.png"
-            alt="Content Creation"
-            className="w-full h-full object-cover"
+            src="pp.jpg"
+            alt="about"
+            className="w-full h-[400px] object-cover rounded-xl"
           />
         </div>
       </div>

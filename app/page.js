@@ -3,7 +3,7 @@ import ContactUs from "@/components/ContactUs";
 import Footer from "@/components/Footer";
 import Herosection from "@/components/Herosection";
 import Services from "@/components/Services";
-import ShowcasingMyWork from "@/components/ShowcasingMyWork";
+//import ShowcasingMyWork from "@/components/ShowcasingMyWork";
 
 export default function page() {
   return (
@@ -11,7 +11,7 @@ export default function page() {
       <Herosection />
       <Services />
       <AboutUs />
-      <ShowcasingMyWork />
+      {/*<ShowcasingMyWork />*/}
       <ContactUs />
       <Footer />
     </div>

@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="bg-white z-20 sticky top-0 inset-x-0">
       <div className="mx-auto flex justify-between items-center">
         <a href="/" className="text-2xl font-bold">
-          <span className="text-indigo-700">PIXEL</span>PROSE
+          <span className="text-indigo-700">:PIXEL</span>PROSE
         </a>
         <button
           onClick={() => setIsOpen(!isOpen)}
