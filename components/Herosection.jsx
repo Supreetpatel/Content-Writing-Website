@@ -11,7 +11,7 @@ function Herosection() {
         <div className="text-center md:text-left md:w-1/2 space-y-6 z-0">
           <h1 className="text-8xl md:text-6xl font-bold text-indigo-950 leading-tight whitespace-nowrap">
             I'M <br />
-            SUBHADIP TRIVEDI
+            SUBHADIP TRIVEDY
           </h1>
           <h3 className="text-gray-600 text-lg">A Conceptual Content Writer</h3>
           <a href="#contact">
