@@ -68,18 +68,20 @@ const ContactForm = () => {
           <form className="space-y-4" ref={form} onSubmit={sendEmail}>
             <input
               type="text"
+              name="user_name"
               placeholder="Your Name"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500"
               required
             />
             <input
               type="email"
+              name="reply_to"
               placeholder="Your Email"
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500"
               required
             />
             <input
-              type="text"
+              type="number"
               placeholder="Your Contact No."
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-indigo-500"
               required
